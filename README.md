@@ -1,3 +1,3 @@
 # AtlasApp
 
-- Hey this is something
+A nice ReadMe
