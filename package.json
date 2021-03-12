@@ -2,6 +2,7 @@
   "name": "atlas-app",
   "version": "0.1.0",
   "description": "A minimal Electron-made app",
+  "type": "module",
   "scripts": {
     "build": "tsc",
     "watch": "tsc -w",
@@ -15,11 +16,15 @@
   "author": "LunaeSomnia",
   "license": "",
   "devDependencies": {
+    "@types/three": "^0.126.0",
     "@typescript-eslint/eslint-plugin": "^3.4.0",
     "@typescript-eslint/parser": "^3.4.0",
-    "eslint": "^7.3.1",
     "electron": "^9.4.0",
+    "eslint": "^7.3.1",
     "typescript": "^3.9.5"
   },
-  "dependencies": {}
+  "dependencies": {
+    "common-js": "^0.3.8",
+    "three": "^0.126.1"
+  }
 }

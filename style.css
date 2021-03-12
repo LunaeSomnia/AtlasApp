@@ -33,6 +33,11 @@ p {
 
 /* Styling of window frame and titlebar */
 
+#renderer {
+  margin-top: 32px;
+  overflow: hidden;
+}
+
 #titlebar {
   display: block;
   position: fixed;
